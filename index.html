@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bingo Bongo!</title>
+		<!-- <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Monoton" rel="stylesheet"> -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header id="title">
+			Bingo Bongo!
+			<button onclick="reset();" class="btn" id="rstbtn">Jogar Novamente</button>
+		</header>
+		<!-- <button onclick="newNum();" class="btn" id="caller">P&oacute;rximo N&uacute;mero</button> -->
+		<div class="container">
+			<div class="card" id="lastNum" onclick="newNum()" class="btn">
+				<h2>Começar</h2>
+				<h3>Clique para um novo jogo</h3>
+			</div>
+			<div class="card card-long" id="nums">
+				<h2>Já foram:</h2>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card" id="b">
+				<h1>B</h1>
+			</div>
+			<div class="card" id="i">
+				<h1>I</h1>
+			</div>
+			<div class="card" id="n">
+				<h1>N</h1>
+			</div>
+			<div class="card" id="g">
+				<h1>G</h1>
+			</div>
+			<div class="card" id="o">
+				<h1>O</h1>
+			</div>
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

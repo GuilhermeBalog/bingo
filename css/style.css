@@ -1,0 +1,71 @@
+html{
+	font-family: Arial;
+}
+body{
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	background-color: #ccc
+}
+header{
+	background-color: #55eeee;
+	padding: 10px;
+	font-family: 'Arial';
+	font-size: 70px;
+	color: white;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+	letter-spacing: 5px;
+}
+.btn{
+	background-color: #84F959;
+	padding: 10px;
+	margin: 5px;
+	font-family: Arial;
+	color: white;
+	font-size: 20px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
+
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #67F533;
+}
+.btn:focus{
+	outline: none;
+}
+.btn[disabled]{
+	background-color: lightgrey;
+}
+.container{
+	width: 100%;
+	height: ;
+}
+.container:nth-child(even){
+	background-color: blue;
+}
+.container:nth-child(odd){
+	background-color: red;
+}
+.card{
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	width: 20%;
+	padding: 10px 10px 100px 10px;
+	background-color: white;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
+	height: 200px;
+	user-select: none;
+}
+.card h1, .card h2, .card h3{
+	text-align: center;
+}
+.card-long{
+	width: 80% !important;
+}
+#lastNum:hover{
+	cursor: pointer;
+}
