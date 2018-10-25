@@ -18,6 +18,9 @@ header{
 }
 .btn{
 	background-color: #84F959;
+	height: 50px;
+	width: 50px;
+	line-height: 40px;
 	padding: 10px;
 	margin: 5px;
 	font-family: Arial;
