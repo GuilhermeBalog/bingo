@@ -8,13 +8,12 @@ body{
 	background-color: #ccc
 }
 header{
-	background-color: #55eeee;
+	background-color: #4caf50;
 	padding: 10px;
-	font-family: 'Arial';
+	font-family: 'pacifico';
 	font-size: 70px;
 	color: white;
 	text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
-	letter-spacing: 5px;
 }
 .btn{
 	background-color: #84F959;
@@ -30,6 +29,7 @@ header{
 	border: none;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
+	float: right;
 
 }
 .btn:hover{

@@ -9,8 +9,8 @@
 		<link rel="stylesheet" href="css/material_icons.css">
 	</head>
 	<body>
-		<header id="title">
-			Bingo Bongo!
+		<header>
+			<span id="title">Bingo Bongo!</span>
 			<button onclick="reset();" class="btn" id="rstbtn"><i class="material-icons">refresh</i></button>
 		</header>
 		<!-- <button onclick="newNum();" class="btn" id="caller">P&oacute;rximo N&uacute;mero</button> -->
@@ -19,8 +19,9 @@
 				<h2>Começar</h2>
 				<h3>Clique para um novo jogo</h3>
 			</div>
-			<div class="card card-long" id="nums">
+			<div class="card card-long">
 				<h2>Já foram:</h2>
+				<p id="nums"></p>
 			</div>
 		</div>
 		<div class="container">
